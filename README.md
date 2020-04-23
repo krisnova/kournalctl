@@ -1,6 +1,6 @@
 # kournalctl
 
-Mount the local system journal as read only and use `journalctl` in Kubernetes.
+Mount the node filesystem system journal as read only and use `journalctl` in Kubernetes.
 
 ## Installing
 
