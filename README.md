@@ -4,7 +4,7 @@ Mount the local system journal as read only and use `journalctl` in Kubernetes.
 
 ## Installing
 
-```
+```bash
 git clone git@github.com:kris-nova/kournalctl.git
 cd kournalctl
 source kournalctl.source
