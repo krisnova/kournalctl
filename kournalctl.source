@@ -28,7 +28,7 @@ function kournalctl () {
         cmd="${cmd}\"${arg}\", "
     done
     cmd=${cmd::-2}
-    sed "s/COMMAND/${cmd}/g" kournal.yaml > apply.yaml
+    sed "s/COMMAND/${cmd}/g" daemonset.yaml > apply.yaml
     kubectl apply -f apply.yaml
     echo ""
     echo "ctl^c to stop"
